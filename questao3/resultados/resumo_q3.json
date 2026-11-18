@@ -1,0 +1,48 @@
+{
+  "n_imagens": 1125,
+  "n_treino": 900,
+  "limiar_otsu_mediano": 160.0,
+  "limiar_otsu_min_max": [
+    144.0,
+    174.0
+  ],
+  "fracao_folha_media_%": 21.481875949435764,
+  "toca_borda_%": 0.1111111111111111,
+  "toca_borda_sem_peciolo_%": 0.0,
+  "imagens_com_mais_de_1_componente_%": 9.222222222222221,
+  "iou_otsu_fixo_medio": 0.9762168658900733,
+  "iou_otsu_kmeans_medio": 0.9970379904898261,
+  "iou_otsu_kmeans_min": 0.9736223557064507,
+  "sensibilidade_iou_medio": {
+    "-20": 0.9881337771463305,
+    "-10": 0.9941220722500945,
+    "+10": 0.9942022056675115,
+    "+20": 0.9886242811580481
+  },
+  "perda_area_media_%": {
+    "r2": 0.9714532745930057,
+    "r3": 1.2813078286775417,
+    "r5": 2.050838930371366
+  },
+  "r_peciolo_salvo": 3,
+  "proxy_acuracia_%": {
+    "referencia_classe_mais_frequente": 6.67,
+    "SEM seg.: cor global (imagem inteira)": 61.33,
+    "SEM seg.: textura global": 90.22,
+    "SEM seg.: cor + textura global": 94.56,
+    "COM seg.: cor na folha": 70.78,
+    "COM seg.: textura na folha": 87.78,
+    "COM seg.: cor + textura na folha": 94.33,
+    "COM seg.: forma (Otsu + limpeza)": 86.56,
+    "COM seg.: cor + textura + forma": 98.44,
+    "Atalho: só fração de folha no quadro": 26.33,
+    "Método: forma com limiar fixo": 87.33,
+    "Método: forma com k-means": 87.22,
+    "Pecíolo: forma com abertura r=2": 86.11,
+    "Pecíolo: forma com abertura r=3": 86.44,
+    "Pecíolo: forma com abertura r=5": 84.22,
+    "Pecíolo: cor + textura + forma (abertura r=3)": 98.56
+  },
+  "mascaras": "C:\\AV2-Classificacao-Imagens\\questao3\\mascaras_256",
+  "mascaras_sem_peciolo": "C:\\AV2-Classificacao-Imagens\\questao3\\mascaras_256_sem_peciolo"
+}
