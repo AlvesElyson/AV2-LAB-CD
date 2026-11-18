@@ -1,0 +1,179 @@
+{
+  "n_imagens": 1125,
+  "n_treino": 900,
+  "n_teste": 225,
+  "tamanho_final": 256,
+  "cor_do_fundo": {
+    "bg_r": {
+      "media": 251.4488888888889,
+      "desvio": 1.816574564037,
+      "min": 243.0,
+      "max": 255.0
+    },
+    "bg_g": {
+      "media": 247.35777777777778,
+      "desvio": 1.754953439436229,
+      "min": 241.0,
+      "max": 255.0
+    },
+    "bg_b": {
+      "media": 253.20444444444445,
+      "desvio": 1.5248706512449035,
+      "min": 247.0,
+      "max": 255.0
+    }
+  },
+  "ruido_sigma": {
+    "mediana": 0.7412898540496826,
+    "p95": 0.9883864521980286,
+    "max": 0.9883864521980286
+  },
+  "contraste_interno_folha": {
+    "folha_sem_clahe_media": 13.04879258680486,
+    "folha_com_clahe_media": 27.054944252850174,
+    "razao_media": 2.0804861977656355
+  },
+  "mascaras_vazias_nas_avaliacoes": 0,
+  "canais": [
+    {
+      "canal": "B",
+      "eta_media": 0.9845,
+      "eta_desvio": 0.0053,
+      "iou_media": 0.9938,
+      "falhas": 0
+    },
+    {
+      "canal": "cinza",
+      "eta_media": 0.9806,
+      "eta_desvio": 0.0053,
+      "iou_media": 0.9991,
+      "falhas": 0
+    },
+    {
+      "canal": "R",
+      "eta_media": 0.9803,
+      "eta_desvio": 0.0058,
+      "iou_media": 0.9961,
+      "falhas": 0
+    },
+    {
+      "canal": "V",
+      "eta_media": 0.9796,
+      "eta_desvio": 0.006,
+      "iou_media": 0.9964,
+      "falhas": 0
+    },
+    {
+      "canal": "G",
+      "eta_media": 0.9789,
+      "eta_desvio": 0.0055,
+      "iou_media": 0.9972,
+      "falhas": 0
+    },
+    {
+      "canal": "dist_fundo",
+      "eta_media": 0.9789,
+      "eta_desvio": 0.0052,
+      "iou_media": 0.9983,
+      "falhas": 0
+    },
+    {
+      "canal": "L",
+      "eta_media": 0.9776,
+      "eta_desvio": 0.0055,
+      "iou_media": 0.9965,
+      "falhas": 0
+    },
+    {
+      "canal": "b",
+      "eta_media": 0.9604,
+      "eta_desvio": 0.0151,
+      "iou_media": 0.9765,
+      "falhas": 0
+    },
+    {
+      "canal": "S",
+      "eta_media": 0.9488,
+      "eta_desvio": 0.0348,
+      "iou_media": 0.9628,
+      "falhas": 0
+    },
+    {
+      "canal": "a",
+      "eta_media": 0.8332,
+      "eta_desvio": 0.153,
+      "iou_media": 0.7893,
+      "falhas": 0
+    }
+  ],
+  "convergencia_forma_erro_mediano_%": {
+    "64": {
+      "extent": 15.16,
+      "solidity": 6.39,
+      "eccentricity": 0.73,
+      "circularity": 104.39,
+      "aspecto": 11.32
+    },
+    "128": {
+      "extent": 2.66,
+      "solidity": 1.83,
+      "eccentricity": 0.38,
+      "circularity": 67.72,
+      "aspecto": 1.29
+    },
+    "256": {
+      "extent": 0.47,
+      "solidity": 0.27,
+      "eccentricity": 0.1,
+      "circularity": 36.01,
+      "aspecto": 0.34
+    },
+    "512": {
+      "extent": 0.23,
+      "solidity": 0.09,
+      "eccentricity": 0.08,
+      "circularity": 15.55,
+      "aspecto": 0.16
+    }
+  },
+  "proxy_acuracia_percent": {
+    "referencia_classe_mais_frequente|-": 6.67,
+    "res128_area_wb|cor": 68.22,
+    "res128_area_wb|textura": 83.89,
+    "res128_area_wb|forma": 84.44,
+    "res128_area_wb|todas": 98.11,
+    "res256_area_wb|cor": 69.0,
+    "res256_area_wb|textura": 88.89,
+    "res256_area_wb|forma": 86.78,
+    "res256_area_wb|todas": 98.33,
+    "res512_area_wb|cor": 71.22,
+    "res512_area_wb|textura": 90.44,
+    "res512_area_wb|forma": 87.11,
+    "res512_area_wb|todas": 98.67,
+    "res256_linear_wb|cor": 71.56,
+    "res256_linear_wb|textura": 78.56,
+    "res256_linear_wb|forma": 87.22,
+    "res256_linear_wb|todas": 97.89,
+    "res256_nearest_wb|cor": 74.44,
+    "res256_nearest_wb|textura": 77.0,
+    "res256_nearest_wb|forma": 86.33,
+    "res256_nearest_wb|todas": 97.44,
+    "res256_area_raw|cor": 69.11,
+    "res256_area_raw|textura": 88.67,
+    "res256_area_raw|forma": 86.44,
+    "res256_area_raw|todas": 98.33,
+    "res256_area_wb_clahe|cor": 72.89,
+    "res256_area_wb_clahe|textura": 87.11,
+    "res256_area_wb_clahe|forma": 86.78,
+    "res256_area_wb_clahe|todas": 98.44,
+    "res256_area_wb_gauss|cor": 69.33,
+    "res256_area_wb_gauss|textura": 86.44,
+    "res256_area_wb_gauss|forma": 84.0,
+    "res256_area_wb_gauss|todas": 98.0,
+    "res256_area_wb_mediana|cor": 66.56,
+    "res256_area_wb_mediana|textura": 84.89,
+    "res256_area_wb_mediana|forma": 83.56,
+    "res256_area_wb_mediana|todas": 98.11
+  },
+  "cache": "C:\\AV2-Classificacao-Imagens\\questão2\\cache_256"
+}
