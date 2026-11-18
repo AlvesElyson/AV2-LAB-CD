@@ -1,0 +1,43 @@
+{
+  "pasta_dataset": "C:\\AV2-Classificacao-Imagens\\dataset",
+  "total_arquivos": 1125,
+  "imagens_validas": 1125,
+  "imagens_corrompidas": 0,
+  "num_classes": 15,
+  "imagens_por_classe": {
+    "1": 75,
+    "2": 75,
+    "3": 75,
+    "4": 75,
+    "5": 75,
+    "6": 75,
+    "7": 75,
+    "8": 75,
+    "9": 75,
+    "10": 75,
+    "11": 75,
+    "12": 75,
+    "13": 75,
+    "14": 75,
+    "15": 75
+  },
+  "razao_maior_menor_classe": 1.0,
+  "duplicatas_exatas_md5": 3,
+  "pares_quase_duplicatas": 153,
+  "imagens_em_grupos_duplicados": 6,
+  "conflitos_rotulo_arquivo_vs_pasta": 0,
+  "sem_classe_identificada": 0,
+  "modos_de_cor": {
+    "RGB": 1125
+  },
+  "dimensao_mais_comum": [
+    829,
+    1128
+  ],
+  "imagens_com_outra_dimensao": 1122,
+  "estrategia_divisao": "StratifiedGroupKFold(n_splits=5) — primeira dobra como teste",
+  "proporcao_teste": 0.2,
+  "seed": 42,
+  "treino": 900,
+  "teste": 225
+}
